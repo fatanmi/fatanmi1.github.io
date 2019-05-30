@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body class="container bg-dark">
+    <div class=" card">
+      <div class="row">
+        <div class="col-md-12 ">
+          <div class="card-body">
+            <h2 class="card-header mb-2 text-center">
+              CGPA Calculator
+            </h2>
+            <form action="" id="cgpa-form">
+              <div class="form-group">
+                <label for="exampleFormControlInput1" class="">Name:</label>
+                <input
+                  id="my-input"
+                  class="form-control "
+                  type="text"
+                  name=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1" class=""
+                  >Registration Number:</label
+                >
+                <input id="my-input" class="form-control" type="text" name="" />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1" class="">Semester:</label>
+                <select id="my-input" class="form-control" type="text" name="">
+                  <option value="">Hamattarn</option>
+                  <option value="">Rain</option>
+                </select>
+              </div>
+            </form>
+            <table id="myTable" class="table table-light">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Course Title</th>
+                  <th scope="col">Unit</th>
+                  <th scope="col">Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="col">1</td>
+                  <td>
+                    <select
+                      class="form-control col-sm-9"
+                      name=""
+                      id="select-list"
+                    >
+                      <option id="course-list" value="">Select</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select
+                      class="form-control col-sm-7"
+                      name=""
+                      id="select-unit"
+                    >
+                      <option id="unit" value="">Unit</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      id="score"
+                      class="form-control col-sm-4"
+                      type="text"
+                      name=""
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="col">2</td>
+                  <td>
+                    <select
+                      id="select-list"
+                      class="form-control col-sm-9"
+                      name=""
+                    >
+                      <option id="course-list" value="">Select</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select
+                      class="form-control col-sm-7"
+                      name=""
+                      id="select-unit"
+                    >
+                      <option id="unit" value="">Unit</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      id="score"
+                      class="form-control col-sm-4"
+                      type="text"
+                      name=""
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="col">3</td>
+                  <td>
+                    <select
+                      class="form-control col-sm-9"
+                      name=""
+                      id="select-list"
+                    >
+                      <option id="course-list" value="">Select</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select
+                      class="form-control col-sm-7"
+                      name=""
+                      id="select-unit"
+                    >
+                      <option id="unit" value="">Unit</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      id="score"
+                      class="form-control col-sm-4"
+                      type="text"
+                      name=""
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="col">4</td>
+                  <td>
+                    <select
+                      class="form-control col-sm-9"
+                      name=""
+                      id="select-list"
+                    >
+                      <option id="course-list" value="">Select</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select
+                      class="form-control col-sm-7"
+                      name=""
+                      id="select-unit"
+                    >
+                      <option id="unit" value="">Unit</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      id="score"
+                      class="form-control col-sm-4"
+                      type="text"
+                      name=""
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="col">5</td>
+                  <td>
+                    <select
+                      class="form-control col-sm-9"
+                      name=""
+                      id="select-list"
+                    >
+                      <option id="course-list" value="">Select</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select
+                      class="form-control col-sm-7"
+                      name=""
+                      id="select-unit"
+                    >
+                      <option id="unit">Unit</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      id="score"
+                      class="form-control col-sm-4"
+                      type="text"
+                      name=""
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="text-center">
+              <button class="btn btn-primary addmore">Add more</button>
+              <button class="btn btn-primary submit">Submit</button>
+            </div>
+            <div class="output mt-5">
+              
+              <div class="text-center" id="loader">
+                <img class="" src="loading.gif" alt="" />
+              </div>
+              <div id="result">
+                  <h5 class="text-center">Result</h5>
+                <div class="input-group mt-3 mb-3">
+                   
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">GPA</span>
+                  </div>
+                  <input
+                    id="gpa"
+                    type="number"
+                    class="form-control"
+                    disabled
+                  />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
